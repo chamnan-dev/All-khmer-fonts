@@ -1,0 +1,85 @@
+/* AKbalthom HighSchool-Frame*/
+@font-face {
+    font-family: 'AKbalthom HighSchool-Frame';
+    font-style: normal;
+    src: url('fonts/AKbalthom HighSchool-Frame [Version 1.10] 082014.ttf') format('truetype');
+    unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+  }
+
+ /*AKbalthom HighSchool-Fun  */
+  @font-face {
+    font-family: 'AKbalthom HighSchool-Fun';
+    font-style: normal;
+    src: url('fonts/AKbalthom HighSchool-Fun.ttf') format(truetype);
+    unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+  }
+
+   /* AKbalthom HighSchool */
+   @font-face {
+    font-family: 'AKbalthom HighSchool';
+    font-style: normal;
+    src: url('fonts/AKbalthom HighSchool.ttf') format(truetype);
+    unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+  }
+
+  /* AKbalthom Kbach */
+  @font-face {
+    font-family: 'AKbalthom Kbach';
+    font-style: normal;
+    src: url('fonts/AKbalthom Kbach [Version 1.50] 082014.ttf') format(truetype);
+    unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+  }
+  
+  /* AKbalthom KhmerBasic.ttf */ 
+  @font-face {
+    font-family: 'AKbalthom KhmerBasic';
+    font-style: normal;
+    src: url('fonts/AKbalthom KhmerBasic.ttf') format(truetype);
+  }
+
+  /* AKbalthom KhmerGothic [Version 1.30].ttf */
+
+  @font-face {
+    font-family: 'AKbalthom KhmerGothic';
+    font-style: normal;
+    src: url('fonts/AKbalthom KhmerGothic [Version 1.30].ttf') format(truetype);
+  }
+
+  /* AKbalthom KhmerHand.ttf */
+
+  @font-face {
+    font-family: 'AKbalthom KhmerHand';
+    font-style: normal;
+    src: url('AKbalthom KhmerHand.ttf') format(truetype);
+  }
+
+  /* AKbalthom KhmerLer [Version 2.00].ttf */
+
+  @font-face {
+    font-family: 'AKbalthom KhmerLer';
+    font-style: normal;
+    src: url('AKbalthom KhmerLer [Version 2.00].ttf') format(truetype);
+  }
+
+  /* AKbalthom KhmerLight.ttf */
+
+  @font-face {
+    font-family: 'AKbalthom KhmerLight';
+    font-style: normal;
+    src: url('fonts/AKbalthom KhmerLight.ttf') format(truetype);
+  }
+
+  /* AKbalthom KhmerNew [Version 1.30].ttf */
+  @font-face {
+    font-family: 'AKbalthom KhmerNew';
+    font-style: normal;
+    src: url('fonts/AKbalthom KhmerNew [Version 1.30].ttf') format(truetype);
+  }
+
+  /* AKBALTHOM Korea.TTF */
+
+  @font-face {
+    font-family: 'AKBALTHOM Korea';
+    font-style: normal;
+    src: url('fonts/AKBALTHOM Korea.TTF') format(truetype);
+  }
