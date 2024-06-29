@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* AKbalthom HighSchool-Frame*/
 @font-face {
     font-family: 'AKbalthom HighSchool-Frame';
@@ -83,3 +85,461 @@
     font-style: normal;
     src: url('fonts/AKBALTHOM Korea.TTF') format(truetype);
   }
+
+  /* AKbalthom Naga Bold.ttf */
+  @font-face {
+    font-family: 'AKbalthom Naga Bold';
+    font-style: normal;
+    src: url('fonts/AKbalthom Naga Bold.ttf') format(truetype);
+  }
+
+  /* AKbalthom Ream [Version 2.00] 082014.ttf */
+
+  @font-face {
+    font-family: 'AKbalthom Ream';
+    font-style: normal;
+    src: url('AKbalthom Ream [Version 2.00] 082014.ttf') format(truetype);
+  }
+
+  /* AKbalthom Seoul.ttf */
+  @font-face {
+    font-family: 'AKbalthom Seoul';
+    font-style: normal;
+    src: url('fonts/AKbalthom Seoul.ttf') format(truetype);
+  }
+
+  /* AKbalthom Superhero.ttf */
+  @font-face {
+    font-family: 'AKbalthom Superhero';
+    font-style: normal;
+    src: url('fonts/AKbalthom Superhero.ttf') format(truetype);
+  }
+ /* AKbalthom SuperheroKH.ttf */
+  @font-face {
+    font-family: 'AKbalthom SuperheroKH';
+    font-style: normal;
+    src: url('fonts/AKbalthom SuperheroKH.ttf') format(truetype);
+  }
+  
+/* AKBALTHOM TNRB.TTF */
+@font-face {
+    font-family: 'AKBALTHOM TNRB';
+    font-style: normal;
+    src: url('fonts/AKBALTHOM TNRB.TTF') format(truetype);
+}
+
+/* Angkor.ttf */
+
+@font-face {
+    font-family: 'Angkor';
+    font-style: normal;
+    src: url('fonts/Angkor.ttf');
+}
+
+/* AngTaso.ttf */
+@font-face {
+    font-family: 'AngTaso';
+    font-style: normal;
+    src: url('fonts/AngTaso.ttf') format(truetype);
+}
+
+/* AngTasom.ttf */
+@font-face {
+    font-family: 'AngTasom';
+    font-style: normal;
+    src: url('fonts/AngTasom.ttf') format(truetype);
+}
+
+/* AntiochText.ttf */
+@font-face {
+    font-family: 'AntiochText';
+    font-style: normal;
+    src: url('fonts/AntiochText.ttf') format(truetype);
+}
+
+/* aphireak1.ttf */
+@font-face {
+    font-family: 'aphireak1';
+    font-style: normal;
+    src: url('fonts/aphireak1.ttf') format(truetype);
+}
+
+/* BaidukOT.ttf */
+@font-face {
+    font-family: 'BaidukOT';
+    font-style: normal;
+    src: url('fonts/BaidukOT.ttf') format(truetype);
+}
+
+/* Battambang-Bold.ttf */
+@font-face {
+    font-family: 'Battambang-Bold';
+    font-style: normal;
+    src: url('fonts/Battambang-Bold.ttf') format(truetype);
+}
+
+/* Battambang-Regular.ttf */
+
+@font-face {
+    font-family: 'Battambang-Regular';
+    font-style: normal;
+    src: url('fonts/Battambang-Regular.ttf') format(truetype);
+}
+
+/* Bayon.ttf */
+
+@font-face {
+    font-family: 'Bayon';
+    font-style: normal;
+    src: url('fonts/Bayon.ttf') format(truetype);
+}
+
+/* Bokor.ttf */
+@font-face {
+    font-family: 'Bokor';
+    font-style: normal;
+    src: url('fonts/Bokor.ttf') format(truetype);
+}
+
+/* ChantreaSRui_Low.ttf */
+
+@font-face {
+  font-family: 'ChantreaSRui_Low';
+  font-style: normal;
+  src: url('fonts/ChantreaSRui_Low.ttf') format(truetype);
+}
+
+/* ChantreaSRui_New.ttf */
+@font-face {
+  font-family: 'ChantreaSRui_New';
+  font-style: normal;
+  src: url('fonts/ChantreaSRui_New.ttf') format(truetype);
+}
+
+/* ChantreaUI.ttf */
+@font-face {
+  font-family: 'ChantreaUI';
+  font-style: normal;
+  src: url('fonts/ChantreaUI.ttf') format(truetype);
+}
+
+/* Chenla.ttf */
+@font-face {
+  font-family: 'Chenla';
+  font-style: normal;
+  src: url('fonts/Chenla.ttf') format(truetype);
+}
+/* Content-Bold.ttf */
+@font-face {
+  font-family: 'Content-Bold';
+  font-style: normal;
+  src: url('fonts/Content-Bold.ttf') format(truetype);
+}
+
+/* Content-Regular.ttf */
+@font-face {
+  font-family: 'Content-Regular';
+  font-style: normal;
+  src: url('fonts/Content-Regular.ttf') format(truetype);
+}
+
+/* Dangrek.ttf */
+@font-face {
+  font-family: 'Dangrek';
+  font-style: normal;
+  src: url('fonts/Dangrek.ttf') format(truetype);
+}
+
+/* DaunKeo.ttf */
+@font-face {
+  font-family: 'DaunKeo';
+  font-style: normal;
+  src: url('fonts/DaunKeo.ttf') format(truetype);
+}
+
+/* DaunPov.ttf */
+@font-face {
+  font-family: 'DaunPov';
+  font-style: normal;
+  src: url('fonts/DaunPov.ttf') format(truetype);
+}
+
+/* Daunsok.ttf */
+@font-face {
+  font-family: 'Daunsok';
+  font-style: normal;
+  src: url('fonts/Daunsok.ttf') format(truetype);
+}
+
+/* DaunTeav.ttf */
+@font-face {
+  font-family: 'DaunTeav';
+  font-style: normal;
+  src: url('fonts/DaunTeav.ttf') format(truetype);
+}
+
+/* DaunTep.ttf */
+@font-face {
+  font-family: 'DaunTep';
+  font-style: normal;
+  src: url('fonts/DaunTep.ttf') format(truetype);
+}
+
+/* DH-Rongdomrey.ttf */
+@font-face {
+  font-family: 'DH-Rongdomrey';
+  font-style: normal;
+  src: url('fonts/DH-Rongdomrey.ttf') format(truetype);
+}
+
+/* Fasthand-Regular.ttf */
+@font-face {
+  font-family: 'Fasthand-Regular';
+  font-style: normal;
+  src: url('fonts/Fasthand-Regular.ttf') format(truetype);
+}
+
+/* Freehand.ttf */
+@font-face {
+  font-family: 'Freehand';
+  font-style: normal;
+  src: url('fonts/Freehand.ttf') format(truetype);
+}
+
+/* Hanuman.ttf */
+@font-face {
+  font-family: 'Hanuman';
+  font-style: normal;
+  src: url('fonts/Hanuman.ttf') format(truetype);
+}
+
+/* Hanumanb.ttf */
+@font-face {
+  font-family: 'Hanumanb';
+  font-style: normal;
+  src: url('fonts/Hanumanb.ttf') format(truetype);
+}
+
+/* iKampuchea001_O'Chrov.ttf */
+@font-face {
+  font-family: 'iKampuchea001_O_Chrov';
+  font-style: normal;
+  src: url("fonts/iKampuchea001_O'Chrov.ttf");
+}
+
+/* iKampuchea002 KhmerFeeling.ttf */
+@font-face {
+  font-family: 'iKampuchea002 KhmerFeeling';
+  font-style: normal;
+  src: url('fonts/iKampuchea002 KhmerFeeling.ttf') format(truetype);
+}
+
+
+/* iSeth First */
+@font-face {
+  font-family: 'iSeth First';
+  font-style: normal;
+  src: url('fonts/iSeth First.ttf') format(truetype);
+}
+
+/* iSeth Pi.ttf */
+@font-face {
+  font-family: 'iSeth Pi';
+  font-style: normal;
+  src: url('fonts/iSeth Pi.ttf') format(truetype);
+}
+
+/* iSeth Z11.ttf */
+@font-face {
+  font-family: 'iSeth Z11';
+  font-style: normal;
+  src: url('fonts/iSeth Z11.ttf') format(truetype);
+}
+
+/* Kantumruy-Bold.ttf */
+@font-face {
+  font-family: 'Kantumruy-Bold';
+  font-style: normal;
+  src: url('fonts/Kantumruy-Bold.ttf') format(truetype);
+}
+
+
+/* Kantumruy-Light.ttf */
+@font-face {
+  font-family: 'Kantumruy-Light';
+  font-style: normal;
+  src: url('fonts/Kantumruy-Light.ttf') format(truetype);
+}
+
+/* Kantumruy-Regular.ttf */
+@font-face {
+  font-family: 'Kantumruy-Regular';
+  font-style: normal;
+  src: url('fonts/Kantumruy-Regular.ttf') format(truetype);
+}
+
+/* KdamThmor-Regular.ttf */
+@font-face {
+  font-family: 'KdamThmor-Regular';
+  font-style: normal;
+  src: url('fonts/KdamThmor-Regular.ttf') format(truetype);
+}
+
+/* KDJayavarman1.ttf */
+@font-face {
+  font-family: 'KDJayavarman1';
+  font-style: normal;
+  src: url('fonts/KDJayavarman1.ttf') format(truetype);
+}
+
+/* Kh  Writhand (1).ttf */
+@font-face {
+  font-family: 'Kh  Writhand (1)';
+  src: url('fonts/Kh  Writhand (1).ttf') format(truetype);
+}
+
+/* Kh  Writhand.ttf */
+@font-face {
+  font-family: 'Kh  Writhand';
+  font-style: normal;
+  src: url('fonts/Kh  Writhand.ttf') format(truetype);
+}
+
+/* Kh BL BrushHand.ttf */
+@font-face {
+  font-family: 'Kh BL BrushHand';
+  font-style: normal;
+  src: url('fonts/Kh BL BrushHand.ttf') format(truetype);
+}
+
+/* Kh BL LazyDistorted.ttf */
+@font-face {
+  font-family: 'Kh BL LazyDistorted';
+  font-style: normal;
+  src: url('fonts/Kh BL LazyDistorted.ttf') format(truetype);
+}
+
+/* Kh BL LazyOutline.ttf */
+@font-face {
+  font-family: 'Kh BL LazyOutline';
+  font-style: normal;
+  src: url('fonts/Kh BL LazyOutline.ttf') format(truetype);
+}
+
+/* Kh BL LazySmooth.ttf */
+@font-face {
+  font-family: 'Kh BL LazySmooth';
+  font-style: normal;
+  src: url('fonts/Kh BL LazySmooth.ttf') format(truetype);
+}
+
+/* Kh CN Star.ttf */
+@font-face {
+  font-family: 'Kh CN Star';
+  font-style: normal;
+  src: url('fonts/Kh CN Star.ttf') format(truetype);
+}
+
+/* Kh Digital Thom.ttf */
+@font-face {
+  font-family: 'Kh Digital Thom';
+  font-style: normal;
+  src: url('fonts/Kh Digital Thom.ttf') format(truetype);
+}
+
+/* kh itkonkhmer.ttf */
+@font-face {
+  font-family: 'kh itkonkhmer';
+  font-style: normal;
+  src: url('fonts/kh itkonkhmer.ttf') format(truetype);
+}
+
+/* Kh itseombel Jrung - bunly.ttf */
+@font-face {
+  font-family: 'Kh itseombel Jrung - bunly';
+  font-style: normal;
+  src: url('fonts/Kh itseombel Jrung - bunly.ttf') format(truetype);
+}
+
+/* kh itsupport4kh.ttf */
+@font-face {
+  font-family: 'kh itsupport4kh';
+  font-style: normal;
+  src: url('fonts/kh itsupport4kh.ttf') format(truetype);
+}
+
+/* Kh Jrung Thom.ttf */
+@font-face {
+  font-family: 'Kh Jrung Thom';
+  font-style: normal;
+  src: url('fonts/Kh Jrung Thom.ttf') format(truetype);
+}
+
+/* Kh Kakada Bati [Version 1.10].ttf */
+@font-face {
+  font-family: 'Kh Kakada Bati';
+  font-style: normal;
+  src: url('fonts/Kh Kakada Bati [Version 1.10].ttf') format(truetype);
+}
+
+/* kh Kompong Chhnang.ttf */
+@font-face {
+  font-family: 'kh Kompong Chhnang';
+  font-style: normal;
+  src: url('fonts/kh Kompong Chhnang.ttf') format(truetype);
+}
+
+
+/* Kh KompongThom - Bunly (Beta).ttf */
+@font-face {
+  font-family: 'Kh KompongThom - Bunly';
+  font-style: normal;
+  src: url('fonts/Kh KompongThom - Bunly (Beta).ttf') format(truetype);
+}
+
+/* Kh MPS Fasthand.ttf */
+@font-face {
+  font-family: 'Kh MPS Fasthand';
+  font-style: normal;
+  src: url('fonts/Kh MPS Fasthand.ttf') format(truetype);
+}
+
+/* KH MPS Jrung.ttf */
+@font-face {
+  font-family: 'KH MPS Jrung';
+  font-style: normal;
+  src: url('fonts/KH MPS Jrung.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KH MPS';
+  font-style: normal;
+  src: url('fonts/KH MPS.ttf') format(truetype);
+}
+
+/* Kh Pen Wappathor.ttf */
+@font-face {
+  font-family: 'Kh Pen Wappathor';
+  font-style: normal;
+  src: url('fonts/Kh Pen Wappathor.ttf') format(truetype);
+}
+
+/* Kh Prey Veng.ttf */
+@font-face {
+  font-family: 'Kh Prey Veng';
+  font-style: normal;
+  src: url('fonts/Kh Prey Veng.ttf') format(truetype);
+}
+
+/* Kh SN Beysach.ttf */
+@font-face {
+  font-family: 'Kh SN Beysach';
+  font-style: normal;
+  src: url('fonts/Kh SN Beysach.ttf') format(truetype);
+}
+
+
+
+
+
+

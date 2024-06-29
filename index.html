@@ -5,18 +5,1103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Development font khmer</title>
     <link rel="stylesheet" href="style.css">
-     <style>
+    <script src="font.awesom.js"></script>
+    <link href="boostrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href=''>
+    <script src=""></script>
+    <style>
         .font1 {
             font-family: 'AKbalthom HighSchool-Frame';
         }
-        .font2 {
-            font-family:  'AKbalthom HighSchool-Fun';
+        td {
+            font-size: 20px;
         }
-
-     </style>
+        input {
+            border: none;
+            border-radius: 8px;
+            outline:  none;
+        }
+    </style>
+    
 </head>
 <body>
-    <h2 class="font1">សួស្ដីកម្ពុជា</h2>
-    <h2 class="font2">សួស្ដីកម្ពុជា</h2>
+    <div class="container">
+        <h1 class="font1 text-center">ពុម្ពអក្សរខ្មែរ សម្រាប់ប្រើនៅលើ CSS</h1>
+        <table class="table table-bordered table-striped border-rounded">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th scope="col">font-farmily</th>
+                <th scope="col">result</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom HighSchool-Frame" id="myInput1" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction1()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: AKbalthom HighSchool-Frame;">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom HighSchool-Fun" id="myInput2" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction2()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom HighSchool-Fun';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom HighSchool" id="myInput3" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction3()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom HighSchool';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom Kbach" id="myInput4" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction4()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom Kbach';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom KhmerBasic" id="myInput5" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction5()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: AKbalthom KhmerBasic;">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom KhmerGothic" id="myInput6" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction6()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom KhmerGothic';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom KhmerHand" id="myInput7" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction7()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom KhmerHand';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom KhmerLer" id="myInput8" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction8()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom KhmerLer';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom KhmerLight" id="myInput9" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction9()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom KhmerLight';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom KhmerNew" id="myInput10" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction10()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom KhmerNew';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKBALTHOM Korea" id="myInput11" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction11()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKBALTHOM Korea';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom Naga Bold" id="myInput12" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction12()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom Naga Bold';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">13</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom Ream" id="myInput13" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction13()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom Ream';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">14</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom Seoul" id="myInput14" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction14()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom Seoul';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">15</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom Superhero" id="myInput15" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction15()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom Superhero';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">16</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKbalthom SuperheroKH" id="myInput16" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction16()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKbalthom SuperheroKH';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">17</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AKBALTHOM TNRB" id="myInput17" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction17()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AKBALTHOM TNRB';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">18</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="Angkor" id="myInput18" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction18()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'Angkor';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">19</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AngTaso" id="myInput19" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction19()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AngTaso';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">20</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AngTasom" id="myInput20" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction20()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AngTasom';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">21</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="AntiochText" id="myInput21" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction21()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'AntiochText';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">22</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="aphireak1" id="myInput22" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction22()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'aphireak1';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">23</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="BaidukOT" id="myInput23" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction23()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'BaidukOT';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">24</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="Battambang-Bold" id="myInput24" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction24()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'Battambang-Bold';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">25</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="Battambang-Regular" id="myInput25" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction25()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'Battambang-Regular';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">26</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="Bayon" id="myInput26" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction26()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'Bayon';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">27</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="Bokor" id="myInput27" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction27()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'Bokor';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">28</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaSRui_Low" id="myInput28" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction28()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaSRui_Low';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">29</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaSRui_New" id="myInput29" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction29()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaSRui_New';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">30</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput30" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction30()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td><div class="d-flex"><input class="m-1" type="text" value="ChantreaUI" id="myInput31" style="width: 100%;" disabled><button style="outline: none;" class="btn btn-default btn-sm" onclick="myFunction31()"><i class="fa fa-clone"></i></button></div></td>
+                <td style="font-family: 'ChantreaUI';">សួស្ដីកម្ពុជា</td>
+              </tr>
+              
+
+            </tbody>
+          </table>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+    <script src="boostrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
