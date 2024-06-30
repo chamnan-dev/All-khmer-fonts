@@ -539,7 +539,1134 @@
 }
 
 
+/* Kh SN Kampongsom.ttf */
+@font-face {
+  font-family: 'Kh SN Kampongsom';
+  font-style: normal;
+  src: url('fonts/Kh SN Kampongsom.ttf') format(truetype);
+}
+
+/* Kh SN Preytakoy.ttf */
+@font-face {
+  font-family: 'Kh SN Preytakoy';
+  font-style: normal;
+  src: url('fonts/Kh SN Preytakoy.ttf') format(truetype);
+}
+
+/* Kh SomborPreyKok - Bunly (beta).ttf */
+@font-face {
+  font-family: 'Kh SomborPreyKok - Bunly';
+  font-style: normal;
+  src: url('fonts/Kh SomborPreyKok - Bunly (beta).ttf') format(truetype);
+}
+/* Kh Writehand Jrung.ttf */
+@font-face {
+  font-family: 'Kh Writehand Jrung';
+  font-style: normal;
+  src: url('fonts/Kh Writehand Jrung.ttf') format(truetype);
+}
+
+/* Kh-Battambang.ttf */
+@font-face {
+  font-family: 'Kh-Battambang';
+  font-style: normal;
+  src: url('fonts/Kh-Battambang.ttf') format(truetype);
+}
+
+/* Kh-Bokor.ttf */
+@font-face {
+  font-family: 'Kh-Bokor';
+  font-style: normal;
+  src: url('fonts/Kh-Bokor.ttf') format(truetype);
+}
+
+/* Kh-Content.ttf */
+@font-face {
+  font-family: 'Kh-Content';
+  font-style: normal;
+  src: url('fonts/Kh-Content.ttf') format(truetype);
+}
+
+/* Kh-Dangrek.ttf */
+@font-face {
+  font-family: 'Kh-Dangrek';
+  font-style: normal;
+  src: url('fonts/Kh-Dangrek.ttf')format(truetype);
+}
+
+/* Kh-Fasthand.ttf */
+@font-face {
+  font-family: 'Kh-Fasthand';
+  font-style: normal;
+  src: url('fonts/Kh-Fasthand.ttf') format(truetype);
+}
+
+/* Kh-Freehand.ttf */
+@font-face {
+  font-family: 'Kh-Freehand';
+  font-style: normal;
+  src: url('fonts/Kh-Freehand.ttf')format(truetype);
+}
+
+/* Kh-Kangrey.ttf */
+@font-face {
+  font-family: 'Kh-Kangrey';
+  font-style: normal;
+  src: url('fonts/Kh-Kangrey.ttf') format(truetype);
+}
+
+/* Kh-Koulen.ttf */
+@font-face {
+  font-family: 'Kh-Koulen';
+  font-style: normal;
+  src: url('fonts/Kh-Koulen.ttf') format(truetype);
+}
+
+/* Kh-KoulenL.ttf */
+@font-face {
+  font-family: 'Kh-KoulenL';
+  font-style: normal;
+  src: url();
+}
 
 
+
+/* Kh-Metal-Chrieng.ttf */
+@font-face {
+  font-family: 'Kh-Metal-Chrieng';
+  font-style: normal;
+  src: url('fonts/Kh-Metal-Chrieng.ttf') format(truetype);
+}
+
+
+/* Kh-MithSalaPali-v2.ttf */
+@font-face {
+  font-family: 'Kh-MithSalaPali-v2';
+  font-style: normal;
+  src: url('fonts/Kh-MithSalaPali-v2.ttf') format(truetype);
+}
+
+/* Kh-Muol-Pali.ttf */
+@font-face {
+  font-family: 'Kh-Muol-Pali';
+  font-style: normal;
+  src: url('fonts/Kh-Muol-Pali.ttf') format(truetype);
+}
+
+/* Kh-Muol.ttf */
+@font-face {
+  font-family: 'Kh-Muol';
+  font-style: normal;
+  src: url('fonts/Kh-Muol.ttf') format(truetype);
+}
+
+/* Kh-Siemreap.ttf */
+@font-face {
+  font-family: 'Kh-Siemreap';
+  font-style: normal;
+  src: url('fonts/Kh-Siemreap.ttf') format(truetype);
+}
+
+
+/* Kh-System.ttf */
+@font-face {
+  font-family: 'Kh-System';
+  font-style: normal;
+  src: url('fonts/Kh-System.ttf') format(truetype);
+}
+
+/* KHMCHANTHA.ttf */
+@font-face {
+  font-family: 'KHMCHANTHA';
+  font-style: normal;
+  src: url('fonts/KHMCHANTHA.ttf') format(truetype);
+}
+
+/* KHMCHRIENG1.ttf */
+@font-face {
+  font-family: 'KHMCHRIENG1';
+  font-style: normal;
+  src: url('fonts/KHMCHRIENG1.ttf') format(truetype);
+}
+
+/* Khmer Banteay Srey B.ttf */
+@font-face {
+  font-family: 'Khmer Banteay Srey B';
+  font-style: normal;
+  src: url('fonts/Khmer Banteay Srey B.ttf') format(truetype);
+}
+
+/* Khmer Banteay Srey L.ttf */
+@font-face {
+  font-family: 'Khmer Banteay Srey L';
+  font-style: normal;
+  src: url('fonts/Khmer Banteay Srey L.ttf') format(truetype);
+}
+
+/* Khmer Banteay Srey.ttf */
+@font-face {
+  font-family: 'Khmer Banteay Srey';
+  font-style: normal;
+  src: url('fonts/Khmer Banteay Srey.ttf') format(truetype);
+}
+
+/* Khmer Beginner.ttf */
+@font-face {
+  font-family: 'Khmer Beginner';
+  font-style: normal;
+  src: url('fonts/Khmer Beginner.ttf') format(truetype);
+}
+
+/* Khmer Chamnanit Regular.ttf */
+@font-face {
+  font-family: 'Khmer Chamnanit Regular';
+  font-style: normal;
+  src: url('fonts/Khmer Chamnanit Regular.ttf') format(truetype);
+}
+
+
+/* Khmer chamnanit.ttf */
+@font-face {
+  font-family: 'Khmer chamnanit';
+  font-style: normal;
+  src: url('fonts/Khmer chamnanit.ttf') format(truetype);
+}
+
+/* Khmer CN Battambang.ttf */
+@font-face {
+  font-family: 'Khmer CN Battambang';
+  font-style: normal;
+  src: url('fonts/Khmer CN Battambang.ttf') format(truetype);
+}
+
+/* Khmer CN Bone.ttf */
+@font-face {
+  font-family: 'Khmer CN Bone';
+  font-style: normal;
+  src: url('fonts/Khmer CN Bone.ttf') format(truetype);
+}
+
+/* Khmer CN EkPhnom.ttf */
+@font-face {
+  font-family: 'Khmer CN EkPhnom';
+  font-style: normal;
+  src: url('fonts/Khmer CN EkPhnom.ttf') format(truetype);
+}
+
+/* Khmer CN hand.ttf */
+@font-face {
+  font-family: 'Khmer CN hand';
+  font-style: normal;
+  src: url('fonts/Khmer CN hand.ttf') format(truetype);
+}
+
+/* Khmer CN Kam Rieng V2.ttf */
+@font-face {
+  font-family: 'Khmer CN Kam Rieng V2';
+  font-style: normal;
+  src:url('fonts/Khmer CN Kam Rieng V2.ttf') format(truetype);
+}
+
+/* Khmer CN Kam Rieng.ttf */
+@font-face {
+  font-family: 'Khmer CN Kam Rieng';
+  font-style: normal;
+  src: url('fonts/Khmer CN Kam Rieng.ttf') format(truetype);
+}
+
+/* Khmer CN Kampingpouy.ttf */
+@font-face {
+  font-family: 'Khmer CN Kampingpouy';
+  font-style: normal;
+  src: url('fonts/Khmer CN Kampingpouy.ttf') format(truetype);
+}
+
+/* Khmer CN Kselus.ttf */
+@font-face {
+  font-family: 'Khmer CN Kselus';
+  font-style: normal;
+  src: url('fonts/Khmer CN Kselus.ttf') format(truetype);
+}
+
+/* Khmer CN lazywrite.ttf */
+@font-face {
+  font-family: 'Khmer CN lazywrite';
+  font-style: normal;
+  src: url('fonts/Khmer CN lazywrite.ttf') format(truetype);
+}
+
+/* Khmer CN Otaki.ttf */
+@font-face {
+  font-family: 'Khmer CN Otaki';
+  font-style: normal;
+  src: url('fonts/Khmer CN Otaki.ttf') format(truetype);
+}
+
+/* Khmer CN Phnom Sampao.ttf */
+@font-face {
+  font-family: 'Khmer CN Phnom Sampao';
+  font-style: normal;
+  src: url('fonts/Khmer CN Phnom Sampao.ttf') format(truetype);
+}
+
+/* Khmer CN Poipet.ttf */
+@font-face {
+  font-family: 'Khmer CN Poipet';
+  font-style: normal;
+  src: url('fonts/Khmer CN Poipet.ttf') format(truetype);
+}
+
+/* Khmer CN Preykonkla.ttf */
+@font-face {
+  font-family: 'Khmer CN Preykonkla';
+  font-style: normal;
+  src: url('fonts/Khmer CN Preykonkla.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer CN Samlot';
+  font-style: normal;
+  src: url('fonts/Khmer CN Samlot.ttf') format(truetype);
+}
+
+/* Khmer CN Star.ttf */
+@font-face {
+  font-family: 'Khmer CN Star';
+  font-style: normal;
+  src: url('fonts/Khmer CN Star.ttf') format(truetype);
+}
+
+/* Khmer CN Stueng Songke.ttf */
+@font-face {
+  font-family: 'Khmer CN Stueng Songke';
+  font-style: normal;
+  src: url('fonts/Khmer CN Stueng Songke.ttf') format(truetype);
+}
+
+/* Khmer CN ThmorKol.ttf */
+
+@font-face {
+  font-family: 'Khmer CN ThmorKol';
+  font-style: normal;
+  src: url('fonts/Khmer CN ThmorKol.ttf') format(truetype);
+}
+
+
+@font-face {
+  font-family: 'Khmer DonBosco';
+  font-style: normal;
+  src: url('fonts/Khmer DonBosco.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Element';
+  font-style: normal;
+  src: url('fonts/Khmer Element.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer ikhmerstudents';
+  font-style: normal;
+  src: url('fonts/khmer ikhmerstudents.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer M1.volt';
+  font-style: normal;
+  src: url('fonts/khmer M1.volt.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer M2.volt';
+  font-style: normal;
+  src: url('fonts/khmer M2.volt.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Pailin';
+  font-style: normal;
+  src: url('fonts/Khmer Pailin.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Pen Eng';
+  font-style: normal;
+  src: url('fonts/Khmer Pen Eng.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Pen Kang';
+  font-style: normal;
+  src: url('fonts/Khmer Pen Kang.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Pen Svayreing';
+  font-style: normal;
+  src: url('fonts/Khmer Pen Svayreing.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Pen SvR';
+  font-style: normal;
+  src: url('fonts/Khmer Pen SvR.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Pen-Surin';
+  font-style: normal;
+  src: url('fonts/Khmer Pen-Surin.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Rotanak Angkor Demo 02';
+  font-style: normal;
+  src: url('fonts/Khmer Rotanak Angkor Demo 02.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer s1.volt';
+  font-style: normal;
+  src: url('fonts/khmer s1.volt.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer s2.volt';
+  font-style: normal;
+  src: url('fonts/khmer s2.volt.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer s3.volt';
+  font-style: normal;
+  src: url('fonts/khmer s3.volt.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer s4.volt';
+  font-style: normal;
+  src: url('fonts/khmer s4.volt.ttf') format(truetype);
+}
+
+
+@font-face {
+  font-family: 'khmer Samady KS-v2';
+  font-style: normal;
+  src: url('fonts/khmer Samady KS-v2 .ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer Savuth Brush';
+  font-style: normal;
+  src: url('fonts/khmer Savuth Brush.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Savuth Pen';
+  font-style: normal;
+  src: url('fonts/Khmer Savuth Pen.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Savuth Pen2';
+  font-style: normal;
+  src: url('fonts/Khmer Savuth Pen2.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer Savuth Romeas';
+  font-style: normal;
+  src: url('fonts/khmer Savuth Romeas.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer Savuth';
+  font-style: normal;
+  src: url('fonts/khmer Savuth.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Sem Sarun';
+  font-style: normal;
+  src: url('fonts/Khmer Sem Sarun.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer sexy';
+  font-style: normal;
+  src: url('fonts/Khmer sexy.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer Sharp';
+  font-style: normal;
+  src: url('fonts/Khmer Sharp.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer SN Kampongcham';
+  font-style: normal;
+  src: url('fonts/Khmer SN Kampongcham.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer SN Kampot';
+  font-style: normal;
+  src: url('fonts/Khmer SN Kampot.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer_victorya_jrung';
+  font-style: normal;
+  src: url('fonts/khmer_victorya_jrung.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'khmer_victorya_treykrim';
+  font-style: normal;
+  src: url('fonts/khmer_victorya_treykrim.ttf') format(truetype);
+}
+
+
+@font-face {
+  font-family: 'Khmer-Angkulileka v2';
+  font-style: normal;
+  src: url('fonts/Khmer-Angkulileka v2.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer-Khao-I-Dang';
+  font-style: normal;
+  src: url('fonts/Khmer-Khao-I-Dang.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer-Pen Teu';
+  font-style: normal;
+  src: url('fonts/Khmer-Pen Teu.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer-PenChantrea';
+  font-style: normal;
+  src: url('fonts/Khmer-PenChantrea.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmer';
+  font-style: normal;
+  src: url('fonts/Khmer.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerDLStation TNRB';
+  font-style: normal;
+  src: url('fonts/KhmerDLStation TNRB.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerKCSvayUni';
+  font-style: normal;
+  src: url('fonts/KhmerKCSvayUni.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMERKEP';
+  font-style:normal;
+  src: url('fonts/KHMERKEP.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMERMEF1';
+  font-style: normal;
+  src: url('fonts/KHMERMEF1.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMERMEF2';
+  font-style: normal;
+  src: url('fonts/KHMERMEF2.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerMoul';
+  font-style: normal;
+  src: url('fonts/KhmerMoul.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerNagari';
+  font-style: normal;
+  src: url('fonts/KhmerNagari.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOS';
+  font-style: normal;
+  src: url('fonts/KhmerOS.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSApsra';
+  font-style: normal;
+  src: url('fonts/KhmerOSApsra.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSbattambang';
+  font-style: normal;
+  src: url('fonts/KhmerOSbattambang.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSbokor';
+  font-style: normal;
+  src: url('fonts/KhmerOSbokor.ttf') format(truetype);
+}
+
+
+@font-face {
+  font-family: 'KhmerOSclassic';
+  font-style: normal;
+  src: url('fonts/KhmerOSclassic.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOScontent';
+  font-style: normal;
+  src: url('fonts/KhmerOScontent.ttf') format(truetype);
+}
+
+
+@font-face {
+  font-family: 'KhmerOSfasthand';
+  font-style: normal;
+  src: url('fonts/KhmerOSfasthand.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSfreehand';
+  font-style: normal;
+  src: url('fonts/KhmerOSfreehand.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSkiensvay';
+  font-style: normal;
+  src: url('fonts/KhmerOSkiensvay.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSmetalchrieng';
+  font-style: normal;
+  src: url('fonts/KhmerOSmetalchrieng.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSmuol';
+  font-style: normal;
+  src: url('fonts/KhmerOSmuol.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSmuollight';
+  font-style: normal;
+  src: url('fonts/KhmerOSmuollight.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSmuolpali';
+  font-style: normal;
+  src: url('fonts/KhmerOSmuolpali.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSniroth';
+  font-style: normal;
+  src: url('fonts/KhmerOSniroth.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSsiemreap';
+  font-style: normal;
+  src: url('fonts/KhmerOSsiemreap.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSsys';
+  font-style: normal;
+  src: url('fonts/KhmerOSsys.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerOSwatphnom';
+  font-style: normal;
+  src: url('fonts/KhmerOSwatphnom.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerRotanakTraiyB';
+  font-style: normal;
+  src: url('fonts/KhmerRotanakTraiyB.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerSerif';
+  font-style: normal;
+  src: url('fonts/KhmerSerif.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhmerTelecommunication';
+  font-style: normal;
+  src: url('fonts/KhmerTelecommunication.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMKAMPONGTRACH';
+  font-style: normal;
+  src: url('fonts/KHMKAMPONGTRACH.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMKAMPOT';
+  font-style: normal;
+  src: url('fonts/KHMKAMPOT.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMKOLAB';
+  font-style: normal;
+  src: url('fonts/KHMKOLAB.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMMOOL';
+  font-style: normal;
+  src: url('fonts/KHMMOOL.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMMOOL1';
+  font-style: normal;
+  src: url('fonts/KHMMOOL1.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMNETTRA';
+  font-style: normal;
+  src: url('fonts/KHMNETTRA.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMOLD';
+  font-style: normal;
+  src: url('fonts/KHMOLD.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmvanara';
+  font-style: normal;
+  src: url('fonts/Khmvanara.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Khmviravuth';
+  font-style: normal;
+  src: url('fonts/Khmviravuth.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KHMWATPHNOM';
+  font-style: normal;
+  src: url('fonts/KHMWATPHNOM.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhPreyVeng';
+  font-style: normal;
+  src: url('fonts/KhPreyVeng.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhUniF1';
+  font-style: normal;
+  src: url('fonts/KhUniF1.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhUniL1';
+  font-style: normal;
+  src: url('fonts/KhUniL1.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhUniN2';
+  font-style: normal;
+  src: url('fonts/KhUniN2.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhUniR1';
+  font-style: normal;
+  src: url('fonts/KhUniR1.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhUniR2';
+  font-style: normal;
+  src: url('fonts/KhUniR2.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KhUniSerif';
+  font-style: normal;
+  src: url('fonts/KhUniSerif.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'kMon40hV2E3s';
+  font-style: normal;
+  src: url('fonts/kMon40hV2E3s.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'kMons40dicV2E3s';
+  font-style: normal;
+  src: url('fonts/kMons40dicV2E3s.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'kMons40spcV2E3s';
+  font-style: normal;
+  src: url('fonts/kMons40spcV2E3s.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'kMons40V2E3';
+  font-style: normal;
+  src: url('fonts/kMons40V2E3.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'kMons60bV2E3s';
+  font-style: normal;
+  src: url('fonts/kMons60bV2E3s.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'kMons80V1E2s';
+  font-style: normal;
+  src: url('fonts/kMons80V1E2s.ttf') format(truetype);
+}
+
+
+@font-face {
+  font-family: 'kMons99V1E2s';
+  font-style: normal;
+  src: url('fonts/kMons99V1E2s.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'kmSBBICsf';
+  font-style: normal;
+  src: url('fonts/kmSBBICsf.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'kmSBBICsys';
+  font-style: normal;
+  src: url('fonts/kmSBBICsys.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Koulen';
+  font-style: normal;
+  src: url('fonts/Koulen.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'KunKhmer';
+  font-style: normal;
+  src: url('fonts/KunKhmer.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Metal';
+  font-style: normal;
+  src: url('fonts/Metal.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo5V56';
+  font-style: normal;
+  src: url('fonts/Mo5V56.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo5V56Bu';
+  font-style: normal;
+  src: url('fonts/Mo5V56Bu.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo5V56dc';
+  font-style: normal;
+  src: url('fonts/Mo5V56dc.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo5V56di';
+  font-style: normal;
+  src: url('fonts/Mo5V56di.ttf') format(truetype);
+}
+
+
+@font-face {
+  font-family: 'Mo5V56do';
+  font-style: normal;
+  src: url('fonts/Mo5V56do.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo5V56hi';
+  font-style: normal;
+  src: url('fonts/Mo5V56hi.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo5V56i';
+  font-style: normal;
+  src: url('fonts/Mo5V56i.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo5V56MO';
+  font-style: normal;
+  src: url('fonts/Mo5V56MO.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo5V56xs';
+  font-style: normal;
+  src: url('fonts/Mo5V56xs.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo8V56';
+  font-style: normal;
+  src: url('fonts/Mo8V56.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo8V56i';
+  font-style: normal;
+  src: url('fonts/Mo8V56i.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mo9V55';
+  font-style: normal;
+  src: url('fonts/Mo9V55.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'mond40uhgs';
+  font-style: normal;
+  src: url('fonts/mond40uhgs.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mondulkiri-B';
+  font-style: normal;
+  src: url('fonts/Mondulkiri-B.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mondulkiri-BI';
+  font-style: normal;
+  src: url('fonts/Mondulkiri-BI.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mondulkiri-I';
+  font-style: normal;
+  src: url('fonts/Mondulkiri-I.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Mondulkiri-R';
+  font-style: normal;
+  src: url('fonts/Mondulkiri-R.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Moul.ttf';
+  font-style: normal;
+  src: url('fonts/Moul.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Moulpali';
+  font-style: normal;
+  src: url('fonts/Moulpali.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'MyanmarSansPro';
+  font-style: normal;
+  src: url('fonts/MyanmarSansPro.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'NiDAAngkor';
+  font-style: normal;
+  src: url('fonts/NiDAAngkor.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'NiDABayon';
+  font-style: normal;
+  src: url('fonts/NiDABayon.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'NiDAChenla';
+  font-style: normal;
+  src: url('fonts/NiDAChenla.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'NiDAFunan';
+  font-style: normal;
+  src: url('fonts/NiDAFunan.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'NiDAKhmerEmpire';
+  font-style: normal;
+  src: url('fonts/NiDAKhmerEmpire.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'NiDASowanaphum';
+  font-style: normal;
+  src: url('fonts/NiDASowanaphum.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'NiDATaprom';
+  font-style: normal;
+  src: url('fonts/NiDATaprom.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Nokora-Bold';
+  font-style: normal;
+  src: url('fonts/Nokora-Bold.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'NotoSansKhmer-Regular';
+  font-style: normal;
+  src: url('fonts/NotoSansKhmer-Regular.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'NotoSansKhmerUI-Regular';
+  font-style: normal;
+  src: url('fonts/NotoSansKhmerUI-Regular.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'OdorMeanChey';
+  font-style: normal;
+  src: url('fonts/OdorMeanChey.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'PhnomPOT_Krung_gr';
+  font-style:normal;
+  src: url('fonts/PhnomPOT_Krung_gr.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Preahvihear';
+  font-style: normal;
+  src: url('fonts/Preahvihear.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'RataV53';
+  font-style: normal;
+  src: url('fonts/RataV53.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Romnea-Italic';
+  font-style: normal;
+  src: url('fonts/Romnea-Italic.ttf') format(truetype);
+}
+
+
+@font-face {
+  font-family: 'SamsungKhmer-Regular';
+  font-style: normal;
+  src: url('fonts/SamsungKhmer-Regular.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Sankor';
+  font-style: normal;
+  src: url('fonts/Sankor.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Siemreap';
+  font-style: normal;
+  src: url('fonts/Siemreap.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'SithiManuss';
+  font-style: normal;
+  src: url('fonts/SithiManuss.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Suwannaphum';
+  font-style: normal;
+  src: url('fonts/Suwannaphum.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'TaPich';
+  font-style: normal;
+  src: url('fonts/TaPich.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Taprom';
+  font-style: normal;
+  src: url('fonts/Taprom.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'TimbreKampuchea';
+  font-style: normal;
+  src: url('fonts/TimbreKampuchea.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Tlok';
+  font-style: normal;
+  src: url('fonts/Tlok.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'U4SvaytonNew';
+  font-style: normal;
+  src: url('fonts/U4SvaytonNew.ttf') format(truetype);
+}
 
 
